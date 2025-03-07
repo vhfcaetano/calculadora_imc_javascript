@@ -7,8 +7,9 @@
 
 body{
     background-color: #090e22;
+    background-image: url(https://img.freepik.com/fotos-gratis/smartphone-perto-de-halteres_23-2147750743.jpg?t=st=1741317559~exp=1741321159~hmac=ebd939f901b23e4930c5092d584d5d82aed31147a84052451e7e8e88181a0283&w=1060);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     min-height: 100vh;
     color: #fff;
@@ -155,4 +156,20 @@ button:hover{
 
 .hight{
     color: #db1912;
+}
+
+#model img{
+    margin: 0;
+    padding: 0;
+    width: 420px;
+}
+
+footer{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
 }
