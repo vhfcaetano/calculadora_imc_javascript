@@ -1,175 +1,238 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Lato", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
 }
 
-body{
-    background-color: #090e22;
-    background-image: url(https://img.freepik.com/fotos-gratis/smartphone-perto-de-halteres_23-2147750743.jpg?t=st=1741317559~exp=1741321159~hmac=ebd939f901b23e4930c5092d584d5d82aed31147a84052451e7e8e88181a0283&w=1060);
+body {
+  background-image: url(/img/background-gym.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.hide {
+  display: none !important;
+}
+
+.container {
+  min-width: 400px;
+  min-height: 400px;
+  background-color: #1d1e33;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+/* IMC form */
+
+#calc-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: #ccc;
+}
+
+.form-control input {
+  padding: 1rem 0.5rem;
+}
+
+.action-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+  background-color: #f44236;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 5px;
+  flex: 1;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+#clear-btn {
+  background-color: #444;
+}
+
+/* Table */
+
+#result-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#imc-number {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+}
+
+#imc-info {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+
+#result-container h3 {
+  margin-top: 1rem;
+  color: #dfdfdf;
+}
+
+#imc-table {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.table-header {
+  font-weight: bold;
+  color: #ccc;
+}
+
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+}
+
+.table-header h4,
+.table-data p {
+  flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+  max-width: 80px;
+}
+
+#back-btn {
+  align-self: center;
+}
+
+.good {
+  color: #12db34;
+}
+
+.low {
+  color: #dbce12;
+}
+
+.medium {
+  color: #db6212;
+}
+
+.hight {
+  color: #db1912;
+}
+
+#model img {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 790px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;
+    right: 380px;
+  }
+
+  body {
+    background-image: url(/img/background-gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    margin: auto;
+    background-color: rgba(29, 30, 51, 0.6);
+    padding: 3rem;
+    border-radius: 12px;
+    height: auto;
+  }
+  body {
+    background-image: url(/img/background-gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
     color: #fff;
+  }
+  #model img {
+    display: none;
+  }
 }
 
-.hide {
-    display: none !important;
-}
-
-.container{
-    min-width: 400px;
-    min-height: 400px;
-    background-color: #1d1e33;
-    padding: 2rem;
+@media (max-width: 400px) {
+  .container {
+    margin: 0 auto;
+    background-color: rgba(29, 30, 51, 0.6);
+    padding: 3rem;
     border-radius: 12px;
-}
-
-/* IMC form */
-
-#calc-container h2{
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.form-inputs{
+    height: 100vh;
+  }
+  body {
+    background-image: url(/img/background-gym.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.form-control{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin-bottom: 1rem;
-}
-
-.form-control label{
-    font-weight: bold;
-    margin-bottom: .6rem;
-    color: #ccc;
-
-}
-
-.form-control input{
-    padding: 1rem .5rem;
-
-}
-
-.action-control{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    gap: 1rem;
-}
-
-button {
-    text-transform: uppercase;
-    padding: 1rem 1.5rem;
-    background-color: #f44236;
-    border: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
     color: #fff;
-    cursor: pointer;
-    opacity: 0.9;
-    border-radius: 5px;
-    flex: 1;
-}
-
-button:hover{
-    opacity: 1;
-}
-
-#clear-btn{
-    background-color: #444;
-}
-
-/* Table */
-
-#result-container{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-#imc-number{
-    font-size: 2.4rem;
-    margin-bottom: .6rem;
-}
-
-#imc-info{
-    font-size: 1.4rem;
-    color: #ccc;
-}
-
-#result-container h3{
-    margin-top: 1rem;
-    color: #dfdfdf;
-}
-
-#imc-table{
-    margin: 1.5rem 0;
-    font-size: .8rem;
-}
-
-.table-header{
-    font-weight: bold;
-    color: #ccc;
-}
-
-.table-header,
-.table-data{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: .5rem;
-    padding-bottom: .5rem;
-    border-bottom: 1px solid #444;
-}
-
-.table-header h4,
-.table-data p{
-    flex: 1;
-}
-
-.table-header h4:nth-child(3),
-.table-data p:nth-child(3){
-    max-width: 80px;
-}
-
-#back-btn{
-    align-self: center;
-}
-
-.good{
-    color: #12db34;
-}
-
-.low{
-    color: #dbce12;
-}
-
-.medium{
-    color: #db6212;
-}
-
-.hight{
-    color: #db1912;
-}
-
-#model img{
-    margin: 0;
-    padding: 0;
-    width: 420px;
-}
-
-footer{
-    margin-top: 2rem;
-    text-align: center;
-}
-
-footer a{
-    text-decoration: none;
-    color: #fff;
+  }
+  #model img {
+    display: none;
+  }
 }
