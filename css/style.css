@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/img/background-gym.jpg);
+  background-image: url(img/background-gym.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -185,7 +185,7 @@ footer a {
   }
 
   body {
-    background-image: url(./img/background-gym.jpg);
+    background-image: url(img/background-gym.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -200,7 +200,7 @@ footer a {
     height: auto;
   }
   body {
-    background-image: url(/img/background-gym.jpg);
+    background-image: url(img/background-gym.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -223,7 +223,7 @@ footer a {
     height: 100vh;
   }
   body {
-    background-image: url(/img/background-gym.jpg);
+    background-image: url(img/background-gym.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
