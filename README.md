@@ -13,16 +13,13 @@
 <br>
 
 <p align="center">
-  <img src="Documentação img/1.png" width="100%">
+  <img src="Documentação CALCULADORA IMC/1.png" width="100%">
 </p>
 <p align="center">
-  <img src="Documentação img/2.png" width="100%">
+  <img src="Documentação CALCULADORA IMC/2.png" width="100%">
 </p>
 <p align="center">
-  <img src="Documentação img/3.png" width="100%">
-</p>
-<p align="center">
-  <img src="Documentação img/4.png" width="100%">
+  <img src="Documentação CALCULADORA IMC/3.png" width="100%">
 </p>
 
 
@@ -49,7 +46,7 @@ Esse projeto está sob a licença MIT.
 ---
 
 <p align="center">
-  <img src="Documentação img/5.png" width="100%">
+  <img src="Documentação CALCULADORA IMC/4.png" width="100%">
 </p>
 
 Feito com ♥ by vhfcaetano
