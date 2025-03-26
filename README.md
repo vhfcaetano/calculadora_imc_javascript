@@ -1,12 +1,56 @@
-# Calculadora_IMC_Javascript
- Calculadora de IMC feita durante o Curso de Front End da Udemy com Javascript puro porém finalizado por mim
+<h1 align="center"> Projeto Calculadora IMC </h1>
 
- Preview do projeto: ![image](https://github.com/user-attachments/assets/7fc1997c-506c-439e-8572-5c14477684e0)
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
- ![image](https://github.com/user-attachments/assets/2d0a2f81-6c08-4908-baa1-0827f63dd38a)
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-![image](https://github.com/user-attachments/assets/f4333452-7035-486e-8290-f8e3e152220e)
+<br>
+
+<p align="center">
+  <img src="Documentação img/1.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação img/2.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação img/3.png" width="100%">
+</p>
+<p align="center">
+  <img src="Documentação img/4.png" width="100%">
+</p>
 
 
-Projeto feito com HTML / CSS / Javascript, com padrões em funções para calculo de imc e validação de digitação de usuário, além do resultado personalizado com cores
+## 📟 Sobre o Projeto
+
+Projeto Calculadora de IMC feita durante o Curso de Front End da Udemy com Javascript puro porém finalizado por mim.
+
+## 💻 Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- HTML e CSS
+- Javascript
+- Git
+
+## 🪄 Layout
+
+Layout conforme tutorial da aula porém com modificações pessoais na versão final
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+<p align="center">
+  <img src="Documentação img/5.png" width="100%">
+</p>
+
+Feito com ♥ by vhfcaetano
 
